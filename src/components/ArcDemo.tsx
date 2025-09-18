@@ -50,11 +50,12 @@ export default function ArcMapDemo() {
     <div
       style={{
         position: "relative",
-        width: 'min(1280px, 95vw)',
+        width: 'min(600px, 95vw)',
+        height: 'min(600px, 95vw)',
         aspectRatio: '16/9',
         // IMPORTANT: stretch, don't 'cover' (no cropping)
         background:
-          "url('/image.png') center / 100% 100% no-repeat",
+          "url('/1.Mercator_600x600.jpg') center / 100% 100% no-repeat",
         borderRadius: 12,
         
       }}
